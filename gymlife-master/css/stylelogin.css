@@ -1,0 +1,13 @@
+.login-form { padding: 30px; background-color: #fff; border-radius: 5px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); } .login-text { text-align: center; margin-bottom: 30px; } .login-text h2 { font-size: 2rem; margin-bottom: 10px; } .login-text p { font-size: 1.2rem; color: #666; margin-bottom: 30px; } .group-input { margin-bottom: 20px; } .group-input label { display: block; font-size: 1.2rem; margin-bottom: 5px; } .group-input input[type="text"], .group-input input[type="password"] { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd; } .group-input.gi-check { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; } .group-input.gi-check label { flex: 1; } .group-input.gi-check .gi-more { flex: 1; display: flex; align-items: center; justify-content: flex-end; } .group-input.gi-check .checkmark { display: inline-block; width: 20px; height: 20px; border-radius: 50%; background-color: #ddd; margin-left: 10px; } .group-input.gi-check .checkmark::before { content: ""; display: block; width: 10px; height: 10px; border-radius: 50%; background-color: #fff; margin: 5px; transform: scale(0); transition: transform 0.2s ease-in-out; } .group-input.gi-check input[type="checkbox"]:checked ~ .checkmark::before { transform: scale(1); } .login-btn { width: 100%; padding: 10px; border-radius: 5px; background-color: #f04; color: #fff; font-size: 1.2rem; cursor: pointer; } .login-btn:hover { background-color: #e03; } .switch-account { text-align: center; margin-top: 20px;
+
+.switch-account a { color: #f04; font-size: 1.2rem; text-decoration: none; }
+
+.switch-account a:hover { text-decoration: underline; }
+
+@media (max-width: 767.98px) { .login-form { padding: 20px; }
+
+.group-input label { font-size: 1.1rem; }
+
+.group-input input[type="text"], .group-input input[type="password"] { padding: 8px; }
+
+.login-btn { padding: 8px; font-size: 1.1rem; } }
